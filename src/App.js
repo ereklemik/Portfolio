@@ -1,12 +1,9 @@
-
-import './App.css';
-
-import Home from './Components/Home/Home';
+import "./App.css";
+import React from 'react';
+import Home from "./Components/Home/Home";
 
 function App() {
-  return (
-     <Home/>
-  );
+  return <Home />;
 }
 
 export default App;
