@@ -1,7 +1,6 @@
 import React from "react";
 import "./projectcard.css";
-import { BiWindowOpen } from "react-icons/bi";
-import {BiGlobe} from "react-icons/bi"
+import GitHubIcon from '@material-ui/icons/GitHub';
 const ProjectCard = ({ project }) => {
   return (
     <div className={"project-card"}>
@@ -10,21 +9,20 @@ const ProjectCard = ({ project }) => {
         <div className={"project-links"}>
           {project.demo && (
             <a className={"project-link"} href={project.demo}>
-              <div className={'link-button'}>{BiWindowOpen} Demo</div>
+              <div className={"link-button"}>Demo</div>
             </a>
           )}
-          {project.github && <a className={"project-link"} href={project.demo}>
-              <div className={'link-button'}>{BiGlobe} Github</div>
+          {project.github && (
+            <a className={"project-link"} href={project.demo}>
+              <div className={"link-button"}>{GitHubIcon}Github</div>
             </a>
-          }  
+          )}
         </div>
         <p>{project.about}</p>
-        <div className={'project-tags'}>
-            {project.tags.map((tag) => {
-                return(
-                    <label className={'tag'}>{tag}</label>
-                )
-            })}
+        <div className="project-tags">
+          {project.tags.map((tag) => {
+            return <label className="tag">{tag}</label>;
+          })}
         </div>
       </div>
       <img src={project.image} className={"project-photo"} />
