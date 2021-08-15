@@ -1,6 +1,7 @@
 import React from "react";
 import "./projectcard.css";
-import GitHubIcon from '@material-ui/icons/GitHub';
+import { AiFillGithub } from "react-icons/ai";
+import { AiOutlineEye } from "react-icons/ai";
 const ProjectCard = ({ project }) => {
   return (
     <div className={"project-card"}>
@@ -9,12 +10,12 @@ const ProjectCard = ({ project }) => {
         <div className={"project-links"}>
           {project.demo && (
             <a className={"project-link"} href={project.demo}>
-              <div className={"link-button"}>Demo</div>
+              <AiOutlineEye className={"link-buton"} /> Demo
             </a>
           )}
           {project.github && (
             <a className={"project-link"} href={project.demo}>
-              <div className={"link-button"}>{GitHubIcon}Github</div>
+              <AiFillGithub className={"link-buton"} /> Github
             </a>
           )}
         </div>
