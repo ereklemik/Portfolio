@@ -6,17 +6,17 @@ import SkillsCard from "./SkillsCard";
 const Skills = () => {
   const data = MySkills;
   return (
-    <div className={"skills"}>
-      <label className={"section-title"}>Skills</label>
+    <div className="skills">
       <Separator />
-      <div className={"skills-container"}>
+      <label className="section-title">Skills</label>
+      <div className="skills-container">
         {data.map((item) => {
           return (
-            <div classname={"skills-section"}>
-              <label classname={"skills-section-title"}>{item.type}</label>
-              <div classname={"skills-list"}>
+            <div className="skills-section">
+              <label className="skills-section-title">{item.type}</label>
+              <div className="skills-list">
                 {item.list.map((skill) => {
-                  return <SkillsCard skill={skill} />
+                  return <SkillsCard skill={skill} />;
                 })}
               </div>
             </div>

@@ -8,29 +8,30 @@ import { DiReact } from "react-icons/di";
 import {SiMaterialUi} from "react-icons/si"
 import {SiBootstrap} from 'react-icons/si'
 
+
 export const MySkills = [
   {
-    type: "Web Programming",
+    type:"Web Programming",
     list: [
       {
-        name: "HTML",
-        icon: <AiFillHtml5 />,
+        name: "HTML" ,
+        icon: <AiFillHtml5 className={'skill-icon'} id={'html'} />,
       },
       {
         name: "CSS",
-        icon: <SiCss3 />,
+        icon: <SiCss3  className={'skill-icon'} id={'css'}/>,
       },
       {
         name: "MaterialUI",
-        icon: <SiMaterialUi />,
+        icon: <SiMaterialUi className={'skill-icon'} id={'material'}/>,
       },
       {
         name: "Bootstrap",
-        icon: <SiBootstrap />,
+        icon: <SiBootstrap className={'skill-icon'} id={'bootstrap'} />,
       },
       {
         name: "ReactJS",
-        icon: <DiReact />,
+        icon: <DiReact className={'skill-icon'} id={'react'}/>,
       },
     ],
   },
@@ -40,15 +41,15 @@ export const MySkills = [
     list: [
       {
         name: "Javascript",
-        icon: <IoLogoJavascript />,
+        icon: <IoLogoJavascript  className={'skill-icon'} id={'javascript'}/>,
       },
       {
         name: "Python",
-        icon: <DiPython />,
+        icon: <DiPython  className={'skill-icon'} id={'python'}/>,
       },
       {
         name: "Java",
-        icon: <DiJava />,
+        icon: <DiJava className={'skill-icon'} id={'java'}/>,
       },
      
     ],
