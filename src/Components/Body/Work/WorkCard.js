@@ -11,7 +11,7 @@ const WorkCard = ({ item }) => {
         <label className={"position"}>{item.position}</label>
       </div>
       <div className={"work-dates"}>
-        <label>{item.dateJoin}</label>-<label>{item.dateEnd}</label>
+        <label>{item.dateJoin}</label> - <label>{item.dateEnd}</label>
       </div>
 
       <div className={"description"}>

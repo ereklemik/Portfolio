@@ -1,15 +1,19 @@
 .web-options {
   display: flex;
   flex: 1;
+  justify-content: center;
   align-items: center;
+  
+  gap: 30px;
 }
 
-.web-option{
-    font-size:20px;
-    margin-right:20px;
-    font-weight:400;
+.web-option {
+  font-size: 20px;
+  margin-right: 20px;
+  font-weight: 400;
 }
-.web-option a{
-    text-decoration:none;
-    color:rgb(77, 0, 150)
+.web-option a {
+  text-decoration: none;
+  color: rgb(70, 92, 219);
 }
+

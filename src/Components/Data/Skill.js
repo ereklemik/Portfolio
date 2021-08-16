@@ -11,7 +11,7 @@ import {SiBootstrap} from 'react-icons/si'
 
 export const MySkills = [
   {
-    type:"Web Programming",
+    type:"Web Development",
     list: [
       {
         name: "HTML" ,

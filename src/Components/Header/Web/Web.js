@@ -9,23 +9,22 @@ const Web = () => {
     <div className={"web-options"}>
       <div className={"web-option"}>
         <a href="#Project">
-          <BiFolder />
-          Projects
+          <BiFolder /> Projects
         </a>
       </div>
       <div className={"web-option"}>
         <a href="#Skills">
-          <BiBrain /> Skills
+          <BiBrain/> Skills
         </a>
       </div>
       <div className={"web-option"}>
         <a href="#Work">
-            <BiBriefcaseAlt/>Work
+            <BiBriefcaseAlt/> Work
         </a>
       </div>
       <div className={"web-option"}>
         <a href="#Contact">
-            <BiEnvelope/>Contact
+            <BiEnvelope /> Contact
         </a>
       </div>
     </div>

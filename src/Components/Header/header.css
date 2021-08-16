@@ -28,18 +28,19 @@
 .logo {
   display: flex;
   font-size: 36px;
-  color: rgb(119, 26, 240);
+  color: rgb(71, 102, 241);
+  border-radius: 30px;
   font-weight: 800;
 }
 
 @media only screen and (max-width: 720px) {
-    .mobile_menu{
-        display:flex;
-    }
-    .web_menu{
-        display:none;
-    }
-    .logo{
-        font-size:24px;
-    }
+  .mobile_menu {
+    display: flex;
+  }
+  .web_menu {
+    display: none;
+  }
+  .logo {
+    font-size: 24px;
+  }
 }

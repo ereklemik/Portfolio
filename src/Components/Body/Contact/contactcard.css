@@ -1,0 +1,19 @@
+.contact-card {
+  display: flex;
+}
+
+.contact-icon {
+    margin-left:4px;
+    font-size:22px;
+    color:rgb(10, 116, 216);
+
+}
+
+.email, .phone, .address{
+    font-size:20px;
+    color:rgb(27, 96, 245);
+}
+
+.wrapper{
+    display:flex;
+}

@@ -16,9 +16,9 @@ export const WorkData = [
     dateEnd: "05/04/2020",
     companyLogo: "https://logmind.com/media/images/original.original.png",
     description:
-      "The Ministry of Economy and Sustainable Development, the Agency for Innovation and Technology and the advertising company Redberry conducted an online hackathon against Covid 19. A record number of applications were registered in Georgia for this hackathon and it was 325. The goal of the hackathon was to create a prototype of a digital product with new challenges that would help eliminate coronavirus problems  such as online medicine, catering, distance education, disease spread / monitoring.",
+      "The Ministry of Economy and Sustainable Development, the Agency for Innovation and Technology and the advertising company Redberry conducted an online hackathon against Covid 19.The goal of the hackathon was to create a prototype of a digital product with new challenges that would help eliminate coronavirus problems  such as online medicine, catering, distance education, disease spread / monitoring.",
   },
- 
+
   {
     company: "Hackathon - uHack for rural development (Finalist)",
     position: "Web Developer & Idea Author",
@@ -36,6 +36,6 @@ export const WorkData = [
     companyLogo:
       "https://scontent.ftbs5-2.fna.fbcdn.net/v/t1.6435-9/52712900_400901124055775_7966941962148249600_n.jpg?_nc_cat=110&ccb=1-5&_nc_sid=973b4a&_nc_ohc=Wdi6TfeUZOwAX9Xngz0&_nc_ht=scontent.ftbs5-2.fna&oh=1050c7ea739303e5117aa7dbf2c2807b&oe=613D681C",
     description:
-      "The event aimed to create technological aids for school children, which will help them to visualize, assimilate and understand school materials more easily and innovatively.",
+      "Kaikona is a platform for personal and professional development, they organized this hackathon.The event aimed to create technological aids for school children, which will help them to visualize, assimilate and understand school materials more easily and innovatively.",
   },
 ];
